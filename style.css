@@ -1,0 +1,19 @@
+canvas{background-color: black}
+
+h3{
+    font-size: 25px !important;
+}
+.button1:hover{
+    background-color:red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow:1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px orchid} 
+}
